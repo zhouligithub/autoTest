@@ -7,8 +7,8 @@ public class TimeOutTest超时测试 {
     public void testSuccess() throws InterruptedException {
         Thread.sleep(2000);
     }
-    @Test(timeOut = 3000)//单位为毫秒值ls
+    @Test(timeOut = 2000)//单位为毫秒值ls
     public void testFailed() throws InterruptedException {
-        Thread.sleep(4000);
+        Thread.sleep(3000);
     }
 }
