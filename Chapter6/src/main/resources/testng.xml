@@ -2,7 +2,7 @@
 <suite name="我自己的测试套件">
     <test name="这些是测试模块">
         <classes>
-            <class name="com.tester.extend.demo.TestMethodsDemo">
+            <class name="com.tester.extend.demo测试监听报告.TestMethodsDemo">
                 <methods>
                     <include name="test1"></include>
                     <include name="test2"></include>
@@ -17,9 +17,9 @@
     <!--监听测试-->
     <listeners>
         <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"></listener>-->
-        <!--<listener class-name="com.tester.extend.demo.ExtentTestNGIReporterListenerOld"></listener>-->
+        <!--<listener class-name="com.tester.extend.demo测试监听报告测试监听报告.ExtentTestNGIReporterListenerOld"></listener>-->
        <!--翻墙解决样式不加载问题-->
-        <listener class-name="com.tester.extend.demo.ExtentTestNGIReporterListener"></listener>
+        <listener class-name="com.tester.extend.demo测试监听报告.ExtentTestNGIReporterListener"></listener>
     </listeners>
 
 
