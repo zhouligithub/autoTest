@@ -1,4 +1,4 @@
-package com.tester.extend.demo;
+package com.tester.extend.demo.demo;
 
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -18,7 +18,7 @@ public class TestMethodsDemo {
         Assert.assertEquals("aaa","aaa");
     }
     @Test
-    public void LogDemo(){
+    public void logDemo(){
         Reporter.log("这是我们自己写的日志");
         throw new RuntimeException("这是我自己的运行时异常");
     }
