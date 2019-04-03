@@ -20,9 +20,13 @@ public class Demo {
     private SqlSessionTemplate template;
 
     @RequestMapping(value = "/getUserCount",method = RequestMethod.GET )
-    @ApiOperation(value = "可以获取到用户数")
+    @ApiOperation(value = "可以获取到用户数",httpMethod = "GET")
     public int getUserList(){
-
+       return template.selectOne("getUserCount");
 
     }
+//    @RequestMapping(value = "/addUser",method=RequestMethod.POST)
+//    public int addUser(){
+//
+//    }
 }
